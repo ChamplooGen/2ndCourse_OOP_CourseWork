@@ -69,13 +69,13 @@ void MessageHistory::ShowHistory()
 		std::cout << "-------------\n";
 		std::cout << " Sender ID: " << GetCurrMessage()->GetFrom() << std::endl;
 		std::cout << " Reciever ID: " << GetCurrMessage()->GetTo() << std::endl;
-		std::cout << " Message text: \n" << " " << GetCurrMessage()->GetText() << "\n";
+		std::cout << " Message text: \n '"<< GetCurrMessage()->GetText() << "'\n";
 		MoveForward();
 	};	// остался последний элемент
 	std::cout << "-------------\n";
 	std::cout << " Sender ID: " << GetCurrMessage()->GetFrom() << std::endl;
 	std::cout << " Reciever ID: " << GetCurrMessage()->GetTo() << std::endl;
-	std::cout << " Message text: " << GetCurrMessage()->GetText() << "\n";
+	std::cout << " Message text: \n '" << GetCurrMessage()->GetText() << "'\n";
 	std::cout << "-------------#\n";
 }
 

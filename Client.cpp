@@ -1,5 +1,3 @@
-#pragma once
-
 #include "ClientAndServer.h"
 int Client::commonID = 0;
 

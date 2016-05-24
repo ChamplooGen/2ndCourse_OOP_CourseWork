@@ -77,7 +77,7 @@ void Server::ShowListOfClients()
 		MoveForward();
 	};	// остался последний элемент
 	std::cout << " Client id: " << GetCurrClient()->GetUserID() << std::endl;
-	std::cout << "*****************\n";
+	std::cout << "*****************\n\n";
 }
 
 void Server::MessageForCurrClient(Message &message)
