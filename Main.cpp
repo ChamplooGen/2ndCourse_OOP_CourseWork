@@ -1,6 +1,10 @@
 #include "ClientAndServer.h"
+#include "Base.h"
 #include <iostream>
 using namespace std;
+
+int Base::commonQuantity = 0;
+
 void main()
 {
 	Server server1, server2;
