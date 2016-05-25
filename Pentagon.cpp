@@ -18,8 +18,8 @@ Pentagon::Pentagon(int newCenterX, int newCenterY, int newLen1, int newDeg1, int
 	std::cout << " Пятиугольник: работа конструктора по умолчанию." << std::endl;
 }
 
-Pentagon::Pentagon(bool r, int newCenterX, int newCenterY, int len) :	// если r = true, то стороны пятиугольника произвольные
-deg1(alphaPenta), deg2(2*alphaPenta), deg3(3*alphaPenta), deg4(4*alphaPenta), deg5(5*alphaPenta) // иначе строится правильный пятиугольник
+Pentagon::Pentagon(bool r, int newCenterX, int newCenterY, int len) :	// если r = true, то стороны пятиугольника одинаковые
+deg1(alphaPenta), deg2(2*alphaPenta), deg3(3*alphaPenta), deg4(4*alphaPenta), deg5(5*alphaPenta) // иначе строится неправильный пятиугольник
 {
 	if (r) {
 		len1 = len2 = len3 = len4 = len5 = len;
