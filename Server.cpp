@@ -96,6 +96,7 @@ void Server::MessageForCurrClient(Message &message)
 	{	// добавляем сообщ-е в историю сообщений
 		curr->client->GetHistory()->AddElement(message);
 		std::cout << " Your message is delivered to reciever. \n";
+		// Добавть анализ сообщения
 	};
 	curr = tail;
 }
